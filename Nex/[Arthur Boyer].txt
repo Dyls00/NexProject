@@ -1,0 +1,41 @@
+[Arthur Boyer]
+[Développeur web]
+[81 rue de la Hulotais, 69800 Saint-Priest, France | 06.29.71.55.57 | arthur.boyer@gmail.com]
+Profil
+Développeur passionné par les nouvelles technologies et l’univers du web, je suis spécialisé dans le développement front-end. Polyvalent, je maîtrise plusieurs langages de programmation dont HTML, CSS et JavaScript et la création de sites web et d’applications. Je sais identifier et comprendre les besoins des utilisateurs pour de meilleurs résultats. Disponible immédiatement.
+Expériences
+Octobre 2019 – Novembre 2020
+Développeur front-end
+Agence Galadrim
+* Développement de sites internet 
+* Conception d’applications et d’outils internes 
+* Élaboration de l’identité visuelle 
+* Communication avec les clients 
+* Maintenance et mise à jour des sites et applications 
+Janvier 2019 – Avril 2019
+Développeur stagiaire
+Itancia
+* Analyse des besoins des utilisateurs 
+* Rédaction du cahier des charges 
+* Développement et test des solutions informatiques 
+* Rédaction des spécifications fonctionnelles 
+* Ajout de nouvelles fonctionnalités 
+Formation
+Septembre 2017 – Juin 2019
+Master en développement web
+ECV Paris
+Septembre 2014 – Juin 2017
+Licence en informatique
+Université de Lille
+Compétences
+* Maîtrise de HTML, CSS et JavaScript 
+* Excellente connaissance de jQuery et Angular 
+* Développement UX 
+* Optimisation de sites web 
+* Sens de la logique et de l’organisation 
+Langues
+* Français : Langue maternelle 
+* Anglais : Niveau avancé C1 
+
+
+http://www.delphine-scepanek.fr/
