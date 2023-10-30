@@ -1020,10 +1020,6 @@ header {
     padding-top: 20px;
     line-height: 23px;
 }
-.card{
-display: flex;
-justify-content: space-between;
-}
 
 .sticky .card.contact-box.email {
     width: 35%;
@@ -1064,13 +1060,11 @@ justify-content: space-between;
 
 .card .fcolor {
     z-index: 1;
-    color: black; 
     font-size: 3em;
 }
 
 .card .text {
     z-index: 1;
-    color: black;
     font-size: 1em;
 }
 

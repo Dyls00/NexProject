@@ -155,14 +155,25 @@
 }
 
 @media screen and (max-width: 895px) {
-    #contact .space-between .item {
+    #contact .sticky .card {
         display: block;
         width: inherit;
         margin: 25px 0px;
     }
 
     #contact .contact-box .text {
-        font-size: 1em;
+        font-size: 1.5em;
+        position: relative;
+    }
+
+    #contact .fcolor{
+        font-size: 1.5em;
+        position: relative;
+    }
+
+    #contact p{
+        font-size: 1.5em;
+        position: relative;
     }
 
     #contact .item.contact-box.meet p {
@@ -214,6 +225,85 @@
     .event .place {
         font-size: 1em;
     }
+
+
+/* countdown */
+.countdown #titles>span{
+    display: inline-block;
+    width: inherit;
+    height: 80px;
+}
+
+.countdown #titles>span:before{
+    content: "";
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.countdown #labels>li {
+    width: 102px;
+    color: #f47321;
+    font: bold 11px "Noto Sans", sans-serif;
+    text-shadow: 1px 1px 0px #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 8%;
+    display:inline;
+    justify-content:center;
+}
+
+/* countdown fin */
+
+/* button */
+
+.inline-div{
+    display: inline-block;
+}
+
+.button{
+margin: 10px;
+padding: 15px;
+}
+
+.buttons{
+    margin-left: 13px;
+    padding: 15px;
+}
+/* button fin */
+
+/* section contact */
+
+.sticky{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Positionnez les cartes en relative pour permettre l'utilisation de z-index */
+.card.contact-box .text .fcolor {
+    position: relative;
+}
+
+.card p {
+    z-index: 1;
+    color: black; 
+    font-size: 1em;
+}
+
+.card .fcolor {
+    z-index: 1;
+    font-size: 3em;
+}
+
+.card .text {
+    z-index: 1;
+    font-size: 1em;
+}
+
+/* section contact fin */
+
+
     /* end experience */
 }
 
