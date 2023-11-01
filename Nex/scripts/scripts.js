@@ -13,8 +13,6 @@ var json = {
         $('#two'),
         $('#three'),
         $('#four'),
-        $('#five'),
-        $('#six')
     ]
 };
 
