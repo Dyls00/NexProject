@@ -153,25 +153,31 @@ nav {
     color: #FF5500;
     z-index: 999;
     padding: 15px 0px;
-    background: transparent; /* Arrière-plan transparent avec une opacité de 0.8 */
-    backdrop-filter: blur(50px); /* Applique un flou de 10 pixels à l'arrière-plan */
+    top: 30px;
     padding: 20px; 
     width: 100%;
 }
 
 nav ul {
-    width: 1200px;
+    background: transparent;  /*Arrière-plan transparent avec une opacité de 0.8 */
+    backdrop-filter: blur(80px);  /* Applique un flou de 10 pixels à l'arrière-plan */
+    width: 1000px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 15px;
     text-align: center;
     margin: auto;
 }
 
 nav li {
     display: inline-block;
-    text-align: center;
+    justify-content: space-around;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
+    top: 50px;
+    border-radius: 15px;
     padding-left: 40px;
     cursor: pointer;
 }
@@ -263,21 +269,21 @@ font-weight: bold;;
 
 
 /* HOMEPAGE */
-
+/*
 
 header h1:hover{
     cursor: pointer;
-    transform: scale(1.1); /* Agrandit l'élément de 10% au survol */
+    transform: scale(1.1);  Agrandit l'élément de 10% au survol 
     color: rgba(255, 85, 0, 1);
 }
 
 #header-text:hover{
     cursor: pointer;
-    transform: scale(1.1); /* Agrandit l'élément de 10% au survol */
+    transform: scale(1.1);  Agrandit l'élément de 10% au survol 
     color: rgba(255, 85, 0, 1);
     font-weight: 600;
 }
-
+*/
 .parallax-outer {
     height: 100vh;
 }
@@ -293,7 +299,7 @@ header h1:hover{
 }
 
 #homepage {
-    top: 90px;
+    top: 140px;
     bottom: 70px;
     position: absolute;
     left: 50%;
@@ -1215,24 +1221,10 @@ footer .fa-print {
 .contain {
     width: 100%;
     height: 100%;
-    --s: 200px; /* control the size */
-    --c1: #1d1d1d;
-    --c2: #4e4f51;
-    --c3: #3c3c3c;
-  
-    background: repeating-conic-gradient(
-          from 30deg,
-          #0000 0 120deg,
-          var(--c3) 0 180deg
-        )
-        calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
-      repeating-conic-gradient(
-        from 30deg,
-        var(--c1) 0 60deg,
-        var(--c2) 0 120deg,
-        var(--c3) 0 180deg
-      );
-    background-size: var(--s) calc(var(--s) * 0.577);
+    background: radial-gradient(circle at 50% 50%, transparent 20%, darkred 21% 28%, transparent 29%);
+    background-color: lightred;
+    background-size: 60px 60px;
   }
+  
   
    /* fin */
