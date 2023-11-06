@@ -703,20 +703,20 @@ header {
 
 }
 
-#skills .front {
-    color: #9B59B6;
-}
 #skills .back {
-    color: #3498DB;
+    color: #6A040F;
 }
-#skills .cms {
-    color: #E67E22;
+#skills .front {
+    color: #FFBA08;
 }
 #skills .design {
-    color: #2ECC71;
+    color: #D00000;
+}
+#skills .cms {
+    color: #E85D04;
 }
 #skills .env {
-    color: #95A5A6;
+    color: #FAA307;
 }
 
 #skills h4 {
@@ -755,19 +755,19 @@ header {
 }
 
 #skills #front-end .space-between .item.stars {
-    color: #9B59B6;
+    color: #FFBA08;
 }
 
 #skills #back-end .space-between .item.stars {
-    color: #3498DB;
+    color: #6A040F;
 }
 
 #skills #cms .space-between .item.stars {
-    color: #E67E22;
+    color: #E85D04;
 }
 
 #skills #web-design .space-between .item.stars {
-    color: #2ECC71;
+    color: #D00000;
 }
 
 /* end skills */
@@ -826,17 +826,17 @@ header {
 }
 
 .event.work h3 {
-    color: #3498DB;
+    color: #E85D04;
 }
 .event.exp h3 {
-    color: #E67E22;
+    color: #FFBA08;
 }
 .event.school h3 {
-    color: #2ECC71;
+    color: #E85D04;
 }
 
 .event.job h3 {
-    color: #f50000;
+    color: #D00000;
 }
 
 .event .right {
