@@ -183,6 +183,14 @@
 }
 
 @media screen and (max-width: 800px) {
+    /* Home page */
+
+    .parallax-outer {
+        height: 400px;
+    }
+
+    /* end home page */
+
     /* EXPERIENCE */
     #timeline {
         margin-top: 0px;

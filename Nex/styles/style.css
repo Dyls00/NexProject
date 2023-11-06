@@ -93,8 +93,7 @@ h4 {
 
 .section-title {
     text-align: center;
-    padding-bottom: 40px;
-}
+    padding-bottom: 40px;}
 
 .outer-container {
     max-width: 1200px;
@@ -150,7 +149,7 @@ section.grey {
 
 nav {
     position:fixed;
-    color: #FF5500;
+    color: #DC2F02;
     z-index: 999;
     padding: 15px 0px;
     top: 30px;
@@ -187,7 +186,7 @@ margin-top: 25px;
 }
 
 nav li a {
-    color:#FF5500 !important;
+    color:#DC2F02 !important;
     text-decoration: none !important;
 }
 
@@ -231,7 +230,7 @@ font-weight: bold;;
 
 #menu {
     display: none;
-    background-color: rgba(0,0,0,0.9);
+    background-color: #03071E;
     height: 100%;
     position: fixed;
     z-index: 0;
@@ -251,7 +250,7 @@ font-weight: bold;;
 
 #menu ul li {
     padding: 20px 0px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid #D00000;
 }
 
 #menu ul li:last-child {
@@ -342,19 +341,24 @@ header {
 }
 
 .skill-box .fa-code:hover {
-    color: #9B59B6;
+    color: #370617;
 }
 .skill-box .fa-database:hover {
-    color: #3498DB;
+    color: #DC2F02;
 }
 .skill-box .fa-network-wired:hover {
-    color: #e74c3c;
+    color: #E85D04;
 }
 .skill-box .fa-pencil-ruler:hover {
-    color: #2ECC71;
+    color: #FFBA08;
 }
 .skill-box .fa-globe:hover {
-    color: #f1c40f;
+    color: #D00000;
+}
+
+#skills .net{
+    color: #FFBA08;
+
 }
 
 /* end homepage */
@@ -365,10 +369,10 @@ header {
     display: flex;
     flex-direction: column;
     width:100%;
-    height: 150px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    height: 200px;
+    box-shadow: 0px 0px 8px #03071E;
     text-align: center;
-    background: #222;
+    background: #370617;
     border-radius: 5px;
     margin: 0;
     padding: 24px 0;
@@ -378,7 +382,7 @@ header {
 .countdown::before{
     content: "";
     width: 8px;
-    height: 65px;
+    height: 105px;
     background: #444;
     border: 1px solid #111;
     border-top-left-radius: 6px;
@@ -412,8 +416,8 @@ header {
     display: inline-block;
     width: 20%;
     max-width: auto;
-    height: 80px;
-    font-size: 75px;
+    height: 110px;
+    font-size: 100px;
     text-align: center;
     color: #111;
     background-color: #ddd;
@@ -461,7 +465,7 @@ header {
 
 .countdown #labels>li {
     width: 102px;
-    color: #f47321;
+    color: #DC2F02;
     font: bold 18px "Noto Sans", sans-serif;
     text-shadow: 1px 1px 0px #000;
     text-transform: uppercase;
@@ -537,15 +541,15 @@ header {
     font-weight: 500;
     cursor: pointer;
     font-size: 20px;
-    color: rgb(193, 228, 248);
-    background: rgb(33, 0, 85);
+    color: rgb(250, 250, 250);
+    background: rgb(55, 6, 23);
     z-index: 0;
-    box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0px 7px -5px rgba(208, 0, 0);
   }
   
   .button:hover {
-    background: rgb(193, 228, 248);
-    color: rgb(33, 0, 85);
+    background: rgb(255, 186, 8);
+    color: rgb(252, 251, 253);
   }
   
   .button:active {
@@ -600,16 +604,16 @@ header {
     transition: all 0.02s;
     font-weight: 500;
     font-size: 20px;
-    color: rgb(193, 228, 248);
-    background: rgba(255, 85, 0, 1);
+    color: rgb(255, 255, 255);
+    background: rgba(208, 0, 0);
     cursor: pointer;
     z-index: 0;
     box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
   }
   
   .buttons:hover {
-    background: rgb(193, 228, 248);
-    color: rgb(7, 7, 7);
+    background: rgb(255, 186, 8);
+    color: rgb(255, 255, 255);
   }
   
   .buttons:active {
@@ -656,8 +660,12 @@ header {
     }
   }
 
+  #about a{
+    color: rgba(220, 47, 2);
+  }
+
   #about a:hover{
-    color: rgba(255, 85, 0, 1);
+    color: rgba(106, 4, 15);
     text-decoration: none;
   }
   /* end about */
@@ -681,7 +689,7 @@ header {
     line-height: 26px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
-    border-radius: 15px;
+    border-radius: 75px;
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
@@ -780,7 +788,7 @@ header {
     content: '';
     position: absolute;
     width: 5px;
-    background-color: #EBEBEB;
+    background-color: #03071E;
     top: 0;
     bottom: 0;
     left: 190px;
@@ -844,7 +852,7 @@ header {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: #EBEBEB;
+    background-color: #03071E;
     top: calc(50% - 12px);
     border-radius: 50%;
     z-index: 1;
@@ -858,7 +866,7 @@ header {
     width: 0;
     z-index: 1;
     left: -10px;
-    border: medium solid #EBEBEB;
+    border: medium solid #03071E;
     border-width: 10px 10px 10px 0;
     border-color: transparent #000 transparent transparent;
 }
@@ -1188,7 +1196,7 @@ header {
 .card {
     width: 250px;
     height: 150px;
-    background: #f8f8f9;
+    background: #fbfbfb;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1237,7 +1245,7 @@ header {
 .card::after {
     content: '';
     position: absolute;
-    background: rgb(248, 246, 246);
+    background: rgb(250, 163, 7);
     inset: 5px;
     border-radius: 15px;
 }   
@@ -1249,7 +1257,7 @@ header {
 /* FOOTER */
 
 footer {
-    background-color: #2A1572;
+    background-color: #6A040F;
     color: #DFF7E9;
     font-size: 20px;
     text-align: center;
@@ -1304,7 +1312,7 @@ footer .fa-print {
 }
 
 .dl-text:hover{
-    color: #FF5500;
+    color: #FFBA08;
 }
 
 /* end footer */
@@ -1318,7 +1326,7 @@ footer .fa-print {
 /* */
 
 .contains {
-    background: linear-gradient(90deg, #e52e71, #81b151);
+    background: linear-gradient(90deg, #370617, #FFBA08);
     display: flex;
     justify-content: flex-end;    
 }
@@ -1328,7 +1336,7 @@ footer .fa-print {
     content: "";
     width: 800px;
     height: 1700px;
-    background: #17141d;
+    background: #6A040F;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
     will-change: border-radius, transform, opacity;
     animation: sliderShape 5s linear infinite;
@@ -1358,13 +1366,13 @@ footer .fa-print {
 /* */
 /* */
 .contain {
-    background: linear-gradient(90deg, #e52e71, #81b151);
+    background: linear-gradient(90deg, #370617, #FFBA08);
     display: flex;
     justify-content: center; 
 }
 
 .contain h2{
-    color:white;
+    color: #FFBA08;
     position: relative;
     z-index: 1;
 }
@@ -1374,7 +1382,7 @@ footer .fa-print {
     width: 700px;
     max-width: 1600px;
     height: 800px;
-    background: #17141d;
+    background: #6A040F;
     border-radius: 62% 47% 82% 55% / 45% 45% 80% 66%;
     will-change: border-radius, transform, opacity;
     animation: sliderShape 5s linear infinite;
