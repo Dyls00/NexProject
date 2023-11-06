@@ -192,7 +192,6 @@ nav li a {
 }
 
 nav li:hover{
-transform: scale(1.2); /* Agrandit l'élément de 20% au survol */
 font-weight: bold;;
 }
 
@@ -269,27 +268,12 @@ font-weight: bold;;
 
 
 /* HOMEPAGE */
-/*
-
-header h1:hover{
-    cursor: pointer;
-    transform: scale(1.1);  Agrandit l'élément de 10% au survol 
-    color: rgba(255, 85, 0, 1);
-}
-
-#header-text:hover{
-    cursor: pointer;
-    transform: scale(1.1);  Agrandit l'élément de 10% au survol 
-    color: rgba(255, 85, 0, 1);
-    font-weight: 600;
-}
-*/
 .parallax-outer {
     height: 100vh;
 }
 
 .parallax { 
-    background-image: url("../images/pexels-picjumbocom-196659.jpg");
+    /*background-image: url("../images/pexels-picjumbocom-196659.jpg");*/
     height: 100%;
     position: relative;
     background-attachment: fixed;
@@ -297,6 +281,20 @@ header h1:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bloc{
+position: absolute;
+}
+
+#myVideo {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
 
 #homepage {
     top: 140px;
@@ -829,6 +827,10 @@ header {
     color: #2ECC71;
 }
 
+.event.job h3 {
+    color: #f50000;
+}
+
 .event .right {
     padding: 20px 0px 40px;
     position: relative;
@@ -858,7 +860,7 @@ header {
     left: -10px;
     border: medium solid #EBEBEB;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #EBEBEB transparent transparent;
+    border-color: transparent #000 transparent transparent;
 }
 
 .event .right::after {
@@ -893,7 +895,6 @@ header {
 
 #experience li:hover {
     cursor: pointer;
-    transform: scale(1.2); /* Agrandit l'élément de 20% au survol */
     font-weight: bold;
 }
 
@@ -905,26 +906,39 @@ header {
 
 .light-box {
     position: relative;
-    width: 290px;
-    height: 354px;
+    padding: 30px 40px 20px 40px;
+    font-size: 16px;
     background-color: #000;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 12px;
     gap: 12px;
-    border-radius: 8px;
+    border-radius: 75px;
     cursor: pointer;
   }
-  
+
+  .light-box ul{
+    z-index: 1;
+    color:white;
+}
+
+.light-box .place{
+    z-index: 1;
+    color:white;
+}
+
+.light-box p{
+    z-index: 1;
+    color:white;
+}
   .light-box::before {
     content: '';
     position: absolute;
     inset: 0;
     left: -5px;
     margin: auto;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 164px;
     border-radius: 10px;
     background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
     z-index: -10;
@@ -937,15 +951,9 @@ header {
     z-index: -1;
     position: absolute;
     inset: 0;
-    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    background: linear-gradient(-45deg, #fc00ff 0%, #ff8a00 100% );
     transform: translate3d(0, 0, 0) scale(0.95);
     filter: blur(20px);
-  }
-  
-  .heading {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
   }
   
   .light-box p:not(.heading) {
@@ -1310,14 +1318,15 @@ footer .fa-print {
 /* */
 
 .contains {
-    background: linear-gradient(90deg, #e52e71, #ff8a00);
+    background: linear-gradient(90deg, #e52e71, #81b151);
+    display: flex;
+    justify-content: flex-end;    
 }
 
 .contains::before {
     position: absolute;
     content: "";
     width: 800px;
-    left: 50%;
     height: 1700px;
     background: #17141d;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
@@ -1349,14 +1358,21 @@ footer .fa-print {
 /* */
 /* */
 .contain {
-    background: linear-gradient(90deg, #e52e71, #ff8a00);
+    background: linear-gradient(90deg, #e52e71, #81b151);
+    display: flex;
+    justify-content: center; 
 }
 
+.contain h2{
+    color:white;
+    position: relative;
+    z-index: 1;
+}
 .contain::before {
     position: absolute;
     content: "";
     width: 700px;
-    left: 30%;
+    max-width: 1600px;
     height: 800px;
     background: #17141d;
     border-radius: 62% 47% 82% 55% / 45% 45% 80% 66%;
@@ -1384,6 +1400,6 @@ footer .fa-print {
         transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
     }
 }
-/* */
+/* #ff8a00 */
   
    /* fin */
