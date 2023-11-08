@@ -162,6 +162,7 @@ h4 {
 
 a {
     color: #6A040F;
+    font-weight: 600;
 }
 
 .first{
@@ -173,25 +174,25 @@ a {
     border-radius: 15px;
 }
 
-.second{
+.sidebar{
 display: flex;
 justify-content: flex-end;
 position: fixed;
 margin: 15px 30px 0px 1100px;
 }
 
-.second ul li:hover{
+.sidebar ul li:hover{
     transform: scale(1.2);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-.second ul li{
+.sidebar ul li{
 margin: 35px;
 }
 
-.second li a{
+.sidebar li a{
  text-decoration: none;
-    }
+}
 
 .first:hover{
 transform: scale(1.2);
