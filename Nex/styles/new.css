@@ -14,11 +14,17 @@
     header {
         font-size: 33px;
     }
+
 }
 
 @media screen and (max-width: 1056px) {
     .contact-box .text {
         font-size: 0.75em;
+    }
+
+    .second{
+        width: 100%;
+        margin: 35px 30px 0px 1100px;
     }
 }
 
@@ -150,13 +156,20 @@ h4 {
 
 /* nav */ 
 
+.fa-home-alt{
+    color: #ffffff;
+}
+
+a {
+    color: #6A040F;
+}
+
 .first{
-    margin: 35px;
+    margin: 30px;
     position: fixed;
-    background: transparent;  /*Arrière-plan transparent avec une opacité de 0.8 */
-    backdrop-filter: blur(80px);  /* Applique un flou de 10 pixels à l'arrière-plan */
-    height: 15px;
-    padding: 20px;
+    background-color: #6A040F;
+    height: 10px;
+    padding: 15px;
     border-radius: 15px;
 }
 
@@ -165,22 +178,23 @@ display: flex;
 justify-content: flex-end;
 position: fixed;
 margin: 35px 30px 0px 1100px;
-background: transparent;  /*Arrière-plan transparent avec une opacité de 0.8 */
-backdrop-filter: blur(80px);  /* Applique un flou de 10 pixels à l'arrière-plan */
-height: 15px;
-padding: 20px;
-border-radius: 15px;
-text-align: justify;
 }
 
-nav ul {
-
+.second ul li:hover{
+    transform: scale(1.2);
+    font-weight: bold;
 }
 
-nav li {
-    display: inline-block;
-    justify-content: flex-end;
-    text-decoration: none;
+.second ul li{
+margin: 35px;
+}
+
+.second li a{
+ text-decoration: none;
+    }
+
+.first:hover{
+transform: scale(1.2);
 }
 
 /* nav fin */
