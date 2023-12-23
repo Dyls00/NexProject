@@ -149,7 +149,6 @@ section.grey {
 
 nav {
     position:fixed;
-    color: #DC2F02;
     z-index: 999;
     padding: 15px 0px;
     top: 30px;
@@ -158,11 +157,10 @@ nav {
 }
 
 nav ul {
-    background: transparent;  /*Arrière-plan transparent avec une opacité de 0.8 */
-    backdrop-filter: blur(80px);  /* Applique un flou de 10 pixels à l'arrière-plan */
+    background-color: #444;  /*Arrière-plan transparent avec une opacité de 0.8 */
     width: 1000px;
     height: 20px;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     border-radius: 15px;
     text-align: center;
     margin: auto;
@@ -186,13 +184,17 @@ margin-top: 25px;
 }
 
 nav li a {
-    color:#DC2F02 !important;
+    color:#ffffff !important;
     text-decoration: none !important;
 }
 
 nav li:hover{
-font-weight: bold;;
+transform: scale(1.2);
 }
+
+nav li a:hover{
+font-weight: bold;
+    }
 
 .inline-div{
     display: flex;
@@ -272,7 +274,7 @@ font-weight: bold;;
 }
 
 .parallax { 
-    /*background-image: url("../images/pexels-picjumbocom-196659.jpg");*/
+    background-image: url("../images/Couleur_page-0001\ \(1\).jpg");
     height: 100%;
     position: relative;
     background-attachment: fixed;
@@ -1293,11 +1295,6 @@ footer .fa-github {
 }
 footer .fa-print {
     background-color: #8c8c8c;
-}
-
-.end{
-
-    height: 200px;
 }
 
 .flex{
