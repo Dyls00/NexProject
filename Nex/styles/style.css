@@ -274,7 +274,7 @@ font-weight: bold;
 }
 
 .parallax { 
-    background-image: url("../images/Couleur_page-0001\ \(1\).jpg");
+    background-image: url("../images/planets-wallpaper-3840x2160.jpg");
     height: 100%;
     position: relative;
     background-attachment: fixed;
@@ -306,6 +306,7 @@ position: absolute;
     -webkit-transform: translate(-50%);
     -ms-transform: translate(-50%);
     transform: translate(-50%);
+    z-index: 1;
 }
 
 header {
