@@ -205,7 +205,7 @@
 
     /* countdown */
     .countdown{
-        height: 80px;
+        height: 90px;
     }
     .countdown #titles>span{
         width: 20%;
@@ -228,7 +228,7 @@
         text-shadow: 1px 1px 0px #000;
         text-transform: uppercase;
         text-align: center;
-        margin-right: 9%;
+        margin-right: 8%;
         margin-left: 8%;
         display:inline;
         justify-content:center;
@@ -245,12 +245,12 @@
 
     #about .button{
         font-size: 15px;
-        margin-left: 170px;
+        margin-left: 140px;
     }
 
     #about .buttons{
         font-size: 15px;
-        margin-left: 145px;
+        margin-left: 115px;
     }
 
     .inline-div{
