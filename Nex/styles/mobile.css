@@ -46,6 +46,8 @@
 
     #homepage {
         bottom: 0px;
+        font-size: 12px;
+        margin-bottom: 385px;
     }
 
     header {
@@ -152,6 +154,12 @@
         font-size: 0.8em;
     }
     /* end contact */
+
+    /* Projects */
+
+    #projects .item {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 895px) {
@@ -185,19 +193,133 @@
 @media screen and (max-width: 800px) {
     /* Home page */
 
+    #homepage {
+        display: none;
+    }
+
     .parallax-outer {
         height: 400px;
     }
 
     /* end home page */
 
+    /* countdown */
+    .countdown{
+        height: 80px;
+    }
+    .countdown #titles>span{
+        width: 20%;
+        max-width: 100%;
+        height: 10px;
+        font-size: 25px;
+    }
+
+    .countdown #titles>span:before{
+        content: "";
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .countdown #labels>li {
+        width: 102px;
+        color: #f47321;
+        font: bold 11px "Noto Sans", sans-serif;
+        text-shadow: 1px 1px 0px #000;
+        text-transform: uppercase;
+        text-align: center;
+        margin-right: 9%;
+        margin-left: 8%;
+        display:inline;
+        justify-content:center;
+    }
+
+    /* countdown fin */
+
+    /* about */
+
+    #about .outer-container{
+        font-size: 14px;
+        margin: 8px;
+    }
+
+    #about .button{
+        font-size: 15px;
+        margin-left: 170px;
+    }
+
+    #about .buttons{
+        font-size: 15px;
+        margin-left: 145px;
+    }
+
+    .inline-div{
+        display: inline-block;
+    }
+
+    .button{
+    margin: 10px;
+    padding: 15px;
+    }
+
+    .buttons{
+        margin-left: 13px;
+        padding: 15px;
+    }
+
+    /* fin about */
+
+    /* skills */
+    #skills .section-title {
+        font-size: 25px;
+    }
+
+    #skills h4 {
+        font-size: 18px;
+    }
+
+    #skills .desc {
+        font-size: 13px;
+    }
+
+    #skills .skill .c-item.content {
+        font-size: 13px;
+    }
+ 
+    .center {
+        width: 96%;
+        margin: 8px;
+    }
+    .contains::before {
+        background: none;
+    }
+
+    /* fin skills */
+
     /* EXPERIENCE */
+
+    #experience .section-title{
+        font-size: 25px;
+    }
+
+    #timeline .htext {
+        font-size: 18px;
+    }
+
+    #timeline ul>li {
+        font-size: 13px;
+    }
+
     #timeline {
         margin-top: 0px;
     }
 
     #timeline::after {
         display: none;
+    }
+
+    .event{
+        margin: 10px;
     }
 
     .event .left {
@@ -235,85 +357,79 @@
         font-size: 1em;
     }
 
+    .contain::before {
+        background: none;
+    }
 
-/* countdown */
-.countdown #titles>span{
-    display: inline-block;
-    width: inherit;
-    height: 80px;
-}
+    /* projects */
 
-.countdown #titles>span:before{
-    content: "";
-    display: block;
-    width: auto;
-    height: auto;
-}
+    #projects .section-title{
+        font-size: 25px;
+    }
+    /* fin projects */ 
 
-.countdown #labels>li {
-    width: 102px;
-    color: #f47321;
-    font: bold 11px "Noto Sans", sans-serif;
-    text-shadow: 1px 1px 0px #000;
-    text-transform: uppercase;
-    text-align: center;
-    margin-right: 3%;
-    margin-left: 8%;
-    display:inline;
-    justify-content:center;
-}
+    /* section contact */
 
-/* countdown fin */
+    #contact .section-title{
+        font-size: 25px;
+    }
 
-/* button */
+    #contact .contact-subtitle{
+        font-size: 13px;
 
-.inline-div{
-    display: inline-block;
-}
+    }
 
-.button{
-margin: 10px;
-padding: 15px;
-}
+    .sticky{
+        display: inline-block;
+        margin: 25px;
+    }
 
-.buttons{
-    margin-left: 13px;
-    padding: 15px;
-}
-/* button fin */
+    #contact .text{
+        font-size: 5px;
+    }
 
-/* section contact */
+    #contact .contact-box .text {
+        font-size: 20px;
+    }
 
-.sticky{
-    display: inline-block;
-    margin: 10px;
-}
+    #contact .contact-box p {
+        font-size: 20px;
+    }
 
-/* Positionnez les cartes en relative pour permettre l'utilisation de z-index */
-.card.contact-box .text .fcolor {
-    position: relative;
-}
+    /* Positionnez les cartes en relative pour permettre l'utilisation de z-index */
+    .card.contact-box .text .fcolor {
+        position: relative;
+    }
 
-.card p {
-    z-index: 1;
-    color: black; 
-    font-size: 1em;
-}
+    .card p {
+        z-index: 1;
+        color: black; 
+        font-size: 1em;
+    }
 
-.card .fcolor {
-    z-index: 1;
-    font-size: 3em;
-}
+    .card .fcolor {
+        z-index: 1;
+        font-size: 3em;
+    }
 
-.card .text {
-    z-index: 1;
-    font-size: 1em;
-}
+    .card .text {
+        z-index: 1;
+        font-size: 1em;
+    }
 
-/* section contact fin */
+    .card::before{
+        background: none;
+    }
 
+    /* section contact fin */
 
-    /* end experience */
+    /* footer */
+    footer {
+        font-size: 16px;
+    }
+
+    /* fin footer */
+
 }
 
 @media screen and (max-width: 600px) {

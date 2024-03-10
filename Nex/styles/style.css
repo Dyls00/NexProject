@@ -1324,7 +1324,7 @@ footer .fa-print {
 /* */
 
 .contains {
-    background: linear-gradient(90deg, #370617, #FFBA08);
+    /*background: linear-gradient(90deg, #370617, #FFBA08);*/
     display: flex;
     justify-content: flex-end;    
 }
@@ -1364,7 +1364,8 @@ footer .fa-print {
 /* */
 /* */
 .contain {
-    background: linear-gradient(90deg, #370617, #FFBA08);
+    /*background: linear-gradient(90deg, #FFBA08, #FFBA08/*, #FFBA08);*/
+    background: #EBEBEB;
     display: flex;
     justify-content: center; 
 }
@@ -1406,6 +1407,5 @@ footer .fa-print {
         transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
     }
 }
-/* #ff8a00 */
   
    /* fin */

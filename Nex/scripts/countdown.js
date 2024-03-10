@@ -1,5 +1,5 @@
 const targetDate = new Date();
-targetDate.setMonth(targetDate.getMonth() + 10);
+targetDate.setMonth(targetDate.getMonth() + 8);
 
 let days, hours, minutes, seconds;
 
