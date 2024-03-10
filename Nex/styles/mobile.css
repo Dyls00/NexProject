@@ -366,14 +366,6 @@
         background-color: #444;
     }
 
-    .light-box::before {
-        display: none;
-    }
-
-    .light-box::after {
-        display: none;
-    }
-
     #experience .date {
         color: white;
     }
